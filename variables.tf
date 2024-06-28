@@ -27,10 +27,10 @@ variable "subnet_prefix" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-#  default     = "t2.micro"
+  default     = "t2.micro"
 
 # 予算を超える高額なインスタンスを使用（ガバナンス違反あり）
-  default     = "m5.24xlarge"
+#  default     = "m5.24xlarge"
 
 }
 
